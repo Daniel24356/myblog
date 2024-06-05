@@ -1,0 +1,112 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+ .hero-indiv{
+    width: 280px;
+    height: 110px;
+    border: 1px solid gainsboro;
+    padding-left: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .heros-indiv{
+   width: 280px;
+   height: 110px;
+   background-color: rgb(43,123,244);
+   padding-left: 30px;
+   border-radius: 10px;
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+ .hero-div{
+    display: flex;
+    margin-top: 30px;
+    gap: 14px;
+ }
+ .hero-rate{
+   font-family: Arial;
+   color: black;
+   font-weight: 600;
+   font-size: 18px;
+ }
+ #dark .hero-rate{
+  color: white;
+ }
+ #dark .save-hero{
+  color: white;
+ } 
+ #dark .heros-rate{
+  color: darkblue;
+ }
+ #dark .saves-hero{
+  color: darkblue;
+ } 
+ #dark .heros-indiv{
+  background-color: white;
+ }
+ #dark .heros-indiv img{
+  border-radius: 13px;
+ }
+
+ #dark .hero-indiv img{
+  border-radius: 5px;
+ }
+
+
+ .heros-rate{
+   font-family: Arial;
+   color: white;
+   font-weight: 600;
+   font-size: 18px;
+ }
+ .save-hero{
+   font-family: Arial;
+   color: rgb(131, 129, 129);
+   font-size: 13px;
+ }
+ .saves-hero{
+   font-family: Arial;
+   color: rgb(245, 242, 242);
+   font-size: 13px;
+ }
+ @media screen and (max-width:1308px){
+    .hero-indiv{
+      width: 262px;
+    }
+    .heros-indiv{
+      width: 262px;
+    }
+ }
+ @media screen and (max-width:414px){
+      .hero-div{
+        flex-direction: column;
+        gap: 35px;
+        margin-top: 120px;
+      }
+      .hero-indiv{
+        width: 380px;
+        height: 250px;
+      }
+      .heros-indiv{
+        width: 380px;
+        height: 250px;
+      }
+      .hero-indiv img,
+      .heros-indiv img{
+        width: 100px;
+        height: 100px;
+      }
+      .hero-rate,
+      .heros-rate{
+        font-size: 30px;
+      }
+      .save-hero,
+      .saves-hero{
+        font-size: 20px;
+      }
+ }

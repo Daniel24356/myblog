@@ -1,0 +1,166 @@
+ .all-ana{
+   width: 1100px;
+   margin-left: 20px;
+ }
+ .analytic-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1060px;
+ }
+ .chosen-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1060px;
+    margin-top: 8px;
+ }
+ .report-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1060px;
+    margin-top: 20px;
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    background-color: rgb(240, 237, 237);
+ }
+ .report-section{
+    display: flex;
+    gap: 20px;
+ }
+ .report-section p{
+    font-size: 14px;
+    font-weight: 500;
+    color: gray;
+ }
+ .setting-btn{
+    height: 32px;
+    width: 30px;
+    background-color: darkblue;
+    border: none;
+ }
+ .plus-btn{
+    height: 32px;
+    width: 30px;
+    background-color: royalblue;
+    border: none;
+ }
+ .set-icon{
+   color: white;
+ }
+ .btn-box{
+    display: flex;
+    gap: 3px;
+ }
+ .chart-table{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+ }
+ .chart-chart{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 20px;
+ }
+.ana-text{
+   font-size: 33px;
+   color: rgb(108, 106, 106);
+}
+.input-div{
+   width: 230px;
+   height: 27px;
+   border: 1px solid gainsboro;
+   color: black;
+   outline: none;
+   display: flex;
+   align-items: center;
+   padding-left: 15px;
+}
+.ana-input{
+   background-color: transparent;
+   outline: none;
+   border: none;
+   width: 80px;
+   padding-left: 5px;
+}
+.ana-input::placeholder{
+   font-size: 12px;
+}
+.cho-view{
+   font-size: 14px;
+   font-weight: 500;
+   color:gray ;
+}
+.ana-repo{
+   text-decoration: underline;
+   font-size: 14px;
+   color:gray ;
+}
+.sess{
+   font-size: 17px;
+   padding-left: 40px;
+   padding-top: 12px;
+   padding-bottom: 5px;
+   color: gray;
+}
+.icon-i{
+   color: gray;
+}
+.areaChart{
+   width: 550px;
+   height: 400px;
+   border: 1px solid gainsboro;
+   border-radius: 0px;
+}
+.barChart{
+   width: 490px;
+   height: 400px;
+   border: 1px solid gainsboro;
+   padding-right: 30px;
+   border-radius: 0px;
+}
+.lineChart{
+   width: 690px;
+   height: 315px;
+   border: 1px solid gainsboro;
+   border-radius: 20px;
+   padding-top: 20px;
+}
+.pieChart{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   width: 350px;
+   height: 315px;
+   border: 1px solid gainsboro;
+   border-radius: 20px;
+}
+.chart-done{
+   padding-top: 10px;
+}
+.see-b{
+   border-top: 1px solid gainsboro;
+   border-bottom: 1px solid gainsboro;
+   background-color: rgb(240, 237, 237);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 20px;
+}
+.see-bs{
+   border-top: 1px solid gainsboro;
+   border-bottom: 1px solid gainsboro;
+   background-color: rgb(240, 237, 237);
+   width: 490px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding-right: 20px;
+}
+.icons-indiv{
+   display: flex;
+   gap: 5px;
+}

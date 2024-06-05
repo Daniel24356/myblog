@@ -1,0 +1,50 @@
+/* .q-links{
+    font-size: 29px;
+    list-style: none;
+    padding-left: 100px;
+    padding-top: 20px;
+    color: white;
+} */
+.search-nav{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+.s-box{
+    margin-top: 20px;
+    height: 30px;
+    width: 700px;
+    margin-right: 40px;
+    outline: none;
+    color: black;
+    padding-left: 25px;
+    font-size: 13px;
+    border-radius: 3px;
+    border: 1px solid gainsboro;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.s-input{
+    /* height: 30px; */
+    width: 700px;
+    border: none;
+    margin-right: 40px;
+    outline: none;
+    color: black;
+    padding-left: 10px;
+    font-size: 13px;
+     background-color: transparent;
+}
+.s-input::placeholder{
+    font-size: 13px;
+}
+.blog-boxs{
+    margin-left: 80px;
+    margin-top: 35px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 14px;
+}

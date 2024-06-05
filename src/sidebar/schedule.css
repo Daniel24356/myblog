@@ -1,0 +1,43 @@
+.schedule-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 990px;
+    margin-bottom: 20px;
+}
+.sch-all{
+    width: 1100px;
+}
+.schedule-box h1{
+    color: gray;
+    font-size: 35px;
+}
+.week-cont{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 900px;
+    margin-left: 80px;
+    row-gap: 20px;
+}
+.active-duty{
+    color: rgb(102, 101, 101);
+    text-align: center;
+}
+.sche-box{
+   margin-top: 20px;
+   padding-left: 40px;
+}
+.sche-box p{
+    color: gray;
+    padding-bottom: 5px;
+}
+.week-cont div{
+    width: 400px;
+    height: 250px;
+    /* background-color: royalblue; */
+    /* border: 1px solid royalblue; */
+    border-radius: 20px;
+    padding-top: 13px;
+    background-color: rgb(240, 237, 237);
+}

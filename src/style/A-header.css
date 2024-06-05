@@ -1,0 +1,244 @@
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  /* .t-input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+  } */
+  .switch{
+    position: relative;
+    display: inline-block;
+    width: 55px;
+    height: 26px;
+  }
+  .switch input{
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  .slider{
+    position: absolute;
+    cursor: pointer;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #2196f3;
+    transition: 0.4s;
+    border-radius: 20px;
+  }
+  .slider:before{
+    position: absolute;
+    content: '';
+    height: 19px;
+    width: 19px;
+    left: 4px;
+    bottom:4px;
+     background-color: white;
+     transition: 0.4s;
+     border-radius: 50%;
+  }
+  input:checked + .slider{
+    background-color: darkblue;
+  }
+  #dark  input:checked + .slider{
+    background-color: rgb(40, 40, 185);
+  }
+  input:checked + .slider:before {
+    transform:translateX(26px)
+  }
+.A-nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 25px;
+    padding-top: 10px;
+    /* gap: 730px; */
+    
+ }
+ /* .admin-pro{
+    display: flex;
+    align-items: center;
+ } */
+ .nav-inner{
+    display: flex;
+    align-items: center;
+    gap: 33px;
+ }
+ .icons-c{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+ .side-icon{
+    display: flex;
+    background-color: rgb(250,250,250);
+    width: 50px;
+    border-radius: 4px;
+    /* position: relative; */
+ }
+ .A-inputDiv{
+   width: 200px;
+   height: 30px;
+   border: 1px solid rgb(243, 242, 242);
+   display: flex;
+   align-items: center;
+   padding-right: 5px;
+   background-color: rgb(250, 247, 247);
+   border-radius: 6px;
+ }
+ .A-input{
+   border: none;
+   background-color: transparent;
+   padding-left: 10px;
+ }
+ .A-iconsDiv{
+   width: 25px;
+   height: 25px;
+   border-radius: 7px;
+   background-color: rgb(47,125,244);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   /* position: absolute;
+   cursor: pointer;
+   top: 0;
+   right: 0;
+   left: 0;
+   bottom: 0; */
+ }
+ /* .A-iconsDiv::before{
+  position: absolute;
+  content: '';
+  width: 25px;
+  height: 25px;
+  border-radius: 7px;
+  background-color: rgb(47,125,244);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .t-input:checked * .A-iconsDiv::before{
+  transform: translateX(26px);
+ } */
+ .A-iconsDivs{
+   width: 25px;
+   height: 25px;
+   /* border-radius: 3px; */
+   /* background-color: gainsboro; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .A-iconsDivss{
+   width: 25px;
+   height: 25px;
+   border-radius: 7px; 
+   background-color: rgb(250,250,250);
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ .sun-icon{
+   color: white;
+   font-size: 16px;
+ }
+ .A-proimg{
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+ }
+ .admin-pro{
+   display: flex;
+   align-items: center;
+   gap: 7px;
+ }
+ .A-proname{
+   font-size: 12px;
+   font-weight: 600;
+ }
+ .A-pt{
+   font-size: 12px;
+   color: rgb(143, 140, 140);
+ }
+ #dark .A-proname{
+  color: white;
+ }
+ #dark .A-pt{
+  color: rgb(221, 218, 218);
+ }
+
+ .willows{
+  display: none;
+ }
+ @media screen and (max-width:1308px){
+     .A-nav{
+       width: 1100px;
+     }
+ }
+ @media screen and (max-width:414px){
+  .A-proimg{
+    width: 36px;
+    height: 36px;
+  }
+  .pro-div{
+    display: none;
+  }
+  .A-Res{
+    font-size: 30px;
+  }
+  .A-iconsDiv{
+  width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  }
+  .A-iconsDivs{
+   width: 30px;
+  }
+  .A-iconsDivss{
+   width: 30px;
+   background-color: rgb(212, 210, 210);
+   height: 30px;
+   border-radius: 9px;
+  }
+  .side-icon{
+    width: 65px;
+    align-items: center;
+    background-color: rgb(212, 210, 210);
+    border-radius: 7px;
+    gap: 4px;
+  }
+  .sun-icon{
+    font-size: 30px;
+  }
+  .A-inputDiv{
+    display: none;
+  }
+  .willows{
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 0px;
+  }
+  .willows p{
+    font-size: 20px;
+   font-weight: 700;
+   font-family: Arial;
+  }
+  .willows img{
+    height: 40px;
+    width: 40px;
+  }
+  .A-nav{
+    align-items: center;
+    padding-right: 0px;
+  }
+  .nav-inner{
+    gap: 20px;
+  }
+ }

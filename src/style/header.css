@@ -1,0 +1,130 @@
+    .header{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 16px 100px;
+    }
+    .header li{
+      list-style: none;
+      color: white;
+    }
+    .second-head{
+      display: flex;
+      gap: 25px;
+    }
+    .second-head li{
+      font-size: 14px;
+      display: flex;
+      align-items: center;
+      gap: 7px;
+    }
+    .home-link{
+      font-size: 14px;
+      color: white;
+      text-decoration: none;
+    }
+    .arrow-down{
+      font-size: 12px;
+    }
+    .quite-txt{
+      font-size: 29px;
+    }
+    .input-sec{
+      height: 26px;
+      width: 175px;
+      border-radius: 13px;
+      border: 1px solid rgb(184, 178, 178);
+      background-color: transparent;
+      /* padding-left: 20px; */
+      display: flex;
+      align-items: center;
+      padding-left: 12px;
+      gap: 10px;
+    }
+    .search{
+      color: white;
+      font-size: 15px;
+    }
+    .input-blog{
+      background-color: transparent;
+      border: none;
+      width: 90px;
+      outline: none;
+    }
+    .input-blog::placeholder{
+      color: white;
+    }
+    .menu-icon{
+      font-size: 34px;
+      color: white;
+    }
+    .menu{
+      display: none;
+    }
+    .drop-down{
+      position: absolute;
+      top: 3.5rem;
+      right: 0;
+      left: 0;
+      margin-left: 39px;
+      border-radius: 15px;
+      background-color: transparent;
+      transition: 1s;
+    }
+    .drop-down li{
+      color: white;
+      font-size: 22px;
+      padding-top: 11px;
+    }
+    @media screen and (max-width:1168px){
+        .second-head{
+          display: none;
+        }
+        .input-sec{
+          display: none;
+        }
+        .menu{
+          display: block;
+          transition: 1s;
+        }
+
+    }
+    @media screen and (max-width:992px){
+      .header{
+        padding: 16px 70px;
+      }
+  }
+  @media screen and (max-width:992px){
+    .header{
+      padding: 16px 40px;
+    }
+}
+@media screen and (max-width:664px){
+  .header{
+    padding: 16px 20px;
+  }
+}
+@media screen and (max-width:414px){
+  .header{
+    padding: 16px 20px;
+  }
+  .input-secs{
+    height: 30px;
+    width: 340px;
+    border-radius: 3px;
+    border: 1px solid rgb(184, 178, 178);
+    background-color: transparent;
+    /* padding-left: 20px; */
+    display: flex;
+    align-items: center;
+    padding-left: 12px;
+    gap: 10px;
+    margin-top: 16px;
+   
+  }
+  .input-blog{
+    outline: none;
+  }
+}
+
+

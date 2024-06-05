@@ -1,0 +1,11 @@
+    .quites-txt{
+        font-size: 29px;
+        list-style: none;
+        padding-left: 100px;
+        padding-top: 20px;
+        color: white;
+    }
+    .q-link{
+        text-decoration: none;
+        color: white;
+    }

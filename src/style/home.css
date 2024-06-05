@@ -1,0 +1,118 @@
+.home-div {
+  margin-top: 130px;
+  /* margin-left: 130px; */
+  display: flex;
+  gap: 100px;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.home-img {
+  width: 700px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.field-txt {
+  text-align: center;
+  color: white;
+}
+
+.field-cont {
+  margin-top: 10px;
+}
+
+.read-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+.shoddy-txt {
+  font-size: 40px;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+}
+
+.shoddy-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.art-txt {
+  color: white;
+}
+
+.read-btn {
+  width: 120px;
+  height: 30px;
+  background-color: transparent;
+  border: 1px solid rgb(184, 178, 178);
+  color: white;
+}
+
+.st-link {
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+  .shoddy-txt {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width:644px) {
+  .shoddy-txt {
+    font-size: 27px;
+  }
+
+  .field-txt {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width:568px) {
+  .shoddy-txt {
+    font-size: 27px;
+  }
+
+  .field-txt {
+    font-size: 13px;
+  }
+}
+
+@media screen and (max-width:524px) {
+  .shoddy-txt {
+    font-size: 22px;
+  }
+
+  .field-txt {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width:488px) {
+  .shoddy-txt {
+    font-size: 22px;
+  }
+
+  .field-txt {
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width:414px) {
+  .shoddy-txt {
+    font-size: 20px;
+  }
+
+  .field-txt {
+    font-size: 10px;
+  }
+}

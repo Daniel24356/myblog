@@ -1,0 +1,93 @@
+.comment-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .comment-indiv{
+     width: 540px;
+     display: flex;
+     flex-direction: column;
+     gap: 10px;
+  }
+  .comment-indiv img{
+     width: 30px;
+     height: 30px;
+     border-radius: 50%;
+    }
+    .user-com{
+      display: flex;
+      gap: 9px;
+    }
+  .comment-sec{
+    /* background-color: rgb(158, 156, 156); */
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    gap: 24px;
+    overflow: auto;
+    height: 120px;
+    width: 600px;
+  }
+  .name-com{
+    color: black;
+    margin-bottom: 2px;
+    font-size: 15px;
+    /* font-family: Arial; */
+    font-weight: 600;
+  }
+  .body-cont{
+    border: 1px solid gainsboro;
+    padding: 10px 10px;
+  }
+  .date-com{
+    color: rgb(80, 79, 79);
+    font-size: 11px;
+    font-family: Arial;
+  }
+  .post-body{
+    font-size: 13px;
+    color: black;
+    font-family: Arial;
+  }
+  .input-com{
+    display: flex;
+    gap: 12px;
+    margin-top: 30px;
+  }
+  .input-com input{
+    width: 370px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid black;
+    color: black;
+    padding-left: 20px;
+    font-size: 14px;
+  }
+  .input-com input::placeholder{
+    color: black;
+    font-size: 14px;
+  }
+  .input-com button{
+    width: 60px;
+    height: 40px;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+  @media screen and (max-width:414px) {
+    .comment-cont{
+      align-items: normal;
+      justify-content: normal;
+      padding-left: 10px;
+    }
+    .comment-cont h1{
+      text-align: center;
+    }
+    .body-cont{
+      width: 380px;
+    }
+  }

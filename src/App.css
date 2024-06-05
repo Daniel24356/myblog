@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.all-A{
+    overflow: hidden;
+ }
+/* .half-d{
+    position: relative;
+} */
+.switch-p{
+    position: absolute;
+    top: 13px;
+    right: 155px;
+}
+.switch-mode{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+#dark .switch-mode label{
+    color: white;
+}
+#light{
+    background-color: white;
+}
+#dark {
+    background-color: darkblue;
+    height: 151vh;
+} 
+
+.cont-app{
+    /* background-color: gray; */
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-image: url(img/outsite-co-R-LK3sqLiBw-unsplash.jpg);
+}
+.cont-app::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.301);
+}
+.cont-sec{
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+}
+.admin-all{
+    display: flex;
+    gap: 15px;
+    overflow: hidden;
+}
+.A-chart{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.A-bar{
+    width: 780px;
+    height: 310px;
+    border: 1px solid gainsboro;
+    padding-top: 20px;
+    border-radius: 10px;
+}
+.A-pie{
+    width: 350px; 
+     height: 310px;
+    border: 1px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    /* margin-top: 20px; */
+}
+.A-pies{
+    display: none;
+}
+.A-bars{
+    display: none;
+}
+.A-barss{
+    display: none;
+}
+@media screen and (max-width:1308px){
+    .A-barss{
+        display: block; 
+        width: 740px;
+        border: 1px solid gainsboro;
+        padding-top: 20px;
+        border-radius: 10px;
+    }
+    .A-bar{
+        display: none;
+    }
+    .A-pies{
+        display: block;
+        width: 320px; 
+        height: 300px;
+        border: 1px solid gainsboro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+    }
+    .A-pie{
+        display: none;
+    }
+}
+@media screen and (max-width:414px){
+   .cont-app{
+    height: 85vh;
+   }
+   .cont-app::before{
+    height: 85%;
+   }
+   .A-chart{
+    flex-direction: column;
+    margin-top: 80px;
+    margin-bottom: 180px;
+    align-items: normal;
+   }
+   .A-bar{
+    width: 490px;
+    /* padding-right: 50px; */
+    display: none;
+   }
+   .A-pie{
+    width: 375px;
+   }
+   .A-bars{
+    width: 375px;
+    height: 310px;
+    border: 1px solid gainsboro;
+    padding-top: 20px;
+    border-radius: 10px;
+    display: block;
+   }
+    
+  }
+  
+  

@@ -1,0 +1,95 @@
+     .all-log{
+      background-color: gray;
+      height: 110vh;
+     }
+    .login-div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 60px;
+     }
+     .form-login{
+        width: 350px;
+        height: 500px;
+        /* border: 1px solid gainsboro ; */
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-top: 27px;
+        border-radius: 6px;
+        background-color: white;
+     }
+     .login-txt{
+        font-size: 24px;
+        font-family: Arial;
+        margin-bottom: 25px;
+     }
+     .user-login{
+        width: 280px;
+        border: none;
+        border-bottom: 1px solid gainsboro;
+        padding-top: 4px;
+        padding-bottom: 8px;
+        outline: none;
+     }
+     .user-login::placeholder{
+        font-size: 14px;
+        font-weight: 500;
+     }
+     .pass-login{
+        margin-top: 13px;
+     }
+     .elog-txt{
+        font-size: 13px;
+     }
+     .forgot-log{
+        font-size: 14px;
+        margin-left: 160px;
+        margin-top: 5px;
+     }
+     .login-btn{
+        width: 280px;
+        height: 30px;
+        border-radius: 15px;
+        border: none;
+        background-color: rgb(151, 151, 151);
+        color: white;
+        font-size: 12px;
+        margin-top: 20px;
+        cursor: pointer;
+     }
+     .sign-using{
+        font-size: 13px;
+        margin-bottom: 7px;
+     }
+     .icons-log{
+        margin-top: 36px;
+     }
+     .sign-log{
+        margin-top: 80px;
+     }
+     .error-red{
+      color: red;
+      font-size: 14px;
+     }
+     .sign-down{
+      padding-left: 27px;
+      font-size: 13px;
+      color: rgb(87, 86, 86)  ;
+      text-decoration: underline;
+      cursor: pointer;
+     }
+     .los-icons{
+      font-size: 25px;
+      color: gray;
+      cursor: pointer;
+     }
+     .los-div{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+     }
+
+

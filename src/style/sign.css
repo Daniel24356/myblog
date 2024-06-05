@@ -1,0 +1,87 @@
+  .all-sign{
+   background-color: gray;
+   height: 130vh;
+  }
+.sign-cont {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+     margin-top: 50px;
+ }
+ .sign-form{
+    width: 350px;
+    height: 620px;
+    /* border: 1px solid gainsboro ; */
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+    padding-top: 27px;
+    border-radius: 6px;
+    padding-left: 33px;
+    background-color: white;
+ }
+ .sign-input{
+    width: 280px;
+    border: none;
+    border-bottom: 1px solid gainsboro;
+    padding-top: 4px;
+    padding-bottom: 8px; 
+    font-size: 15px;
+    outline: none;
+ }
+ .input-house{
+   margin-bottom: 25px;
+ }
+ .sign-input::placeholder{
+    font-size: 15px;
+ }
+ .sign-text{
+    font-size: 25px;
+    font-family: Arial;
+    margin-bottom: 25px;
+ }
+ .input-txt{
+    font-size: 13px;
+ }
+ .agree-cont{
+    display: flex;
+    /* align-items: center; */
+    gap: 7px;
+    margin-bottom: 25px;
+ }
+ .agree-cont input{
+    width: 11px;
+    height: 11px;
+ } 
+ .agree-cont p{
+    font-size: 12px;
+ }
+ .btn-cont{
+    display: flex;
+    gap: 30px;
+}
+.signup-btn{
+    width: 170px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background-color: rgb(151, 151, 151);
+    color: white;
+    cursor: pointer;
+}
+.signin-btn{
+    width: 60px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+.in-link{
+   text-decoration: none;
+   color: rgb(68, 67, 67);
+}
+.red-error{
+   color: red;
+   font-size: 13px;
+}

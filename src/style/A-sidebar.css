@@ -1,0 +1,204 @@
+ .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 14px;
+    margin-left: 10px;
+ }
+ .nested-sidebar{
+   display: flex;
+   gap: 40px;
+ }
+ .outlet{
+  width: 1200px;
+ }
+ .willow{
+    margin-bottom: 23px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 10px;
+ }
+ .willow p{
+   font-size: 15px;
+   font-weight: 600;
+   font-family: Arial;
+ }
+ .logout{
+    margin-top: 270px;
+    display: flex;
+    gap: 10px;
+ }
+ .logout p{
+   font-size: 15px;
+   color: rgb(139, 139, 139);
+ }
+ .Aside-indiv{
+   display: flex;
+   gap: 12px;
+   margin-left: 10px;
+   font-size: 14px;
+   color: rgb(139, 139, 139);
+   cursor: pointer;
+ }
+ .Aside-indiv:hover{
+  height: 30px;
+  width: 140px;
+  background-color: rgb(43,123,244);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  color: white;
+  margin-left: 0;
+ }
+ .link-ana{
+  text-decoration: none;
+  font-size: 14px;
+   color: rgb(139, 139, 139);
+ }
+ .link-ana:hover{
+  color: white;
+ }
+ .Aside-indiv p:hover{
+  color: white;
+ }
+ .Aside-indiv p{
+   font-size: 14px;
+   color: rgb(139, 139, 139);
+ }
+ #dark .Aside-indiv{
+  color: white;
+ }
+ /* #dark .Aside-indiv:hover{
+  background-color: white;
+  color: black;
+ }
+ #dark .link-ana:hover{
+  color: black;
+ } */
+ #dark .lin-dash{
+  color: white;
+  background-color: white;
+ }
+ /* #dark .A-activess{
+  background-color: white;
+ } */
+ #dark .Aside-indiv p{
+  color: white;
+ }
+ #dark .willow p{
+  color: white;
+ }
+ #dark .willow img{
+  border-radius: 5px;
+ }
+ #dark .A-icons{
+  color: white;
+ }
+ #dark .logout p{
+  color: white;
+ }
+ #dark .A-active {
+   background-color: white;
+ }
+ #dark .A-active p{
+  color: darkblue;
+  background-color: white;
+ }
+#dark .link-ana{
+  color: white;
+}
+
+ #dark .Ad-icons{
+  color: darkblue;
+ }
+
+ .A-icons{
+   font-size: 15px;
+   color: rgb(139, 139, 139);
+ }
+ .A-active{
+   height: 30px;
+   width: 140px;
+   background-color: rgb(43,123,244);
+   padding-left: 10px;
+   display: flex;
+   align-items: center;
+   border-radius: 8px;
+   /* gap: 10px; */
+ }
+ /* .A-activess{
+  height: 30px;
+  width: 140px;
+  background-color: rgb(43,123,244);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+} */
+.lin-dash{
+  height: 30px;
+  width: 140px;
+  background-color: rgb(43,123,244);
+  padding-left: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  text-decoration: none;
+}
+ .A-active p{
+   color: white;
+   font-size: 14px;
+ }
+ .Ad-icons{
+   font-size: 25px;
+   color: white;
+ }
+ @media screen and (max-width:414px){
+      .sidebar{
+        flex-direction: row;
+        align-items: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        gap: 34px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+        border-top: 1px solid black;
+        background-color: white;
+        z-index: 10;
+      }
+      .none{
+        display: none;
+      }
+      .logout{
+        margin-top: 0px ;
+      }
+      .Aside-indiv p{
+        display: none;
+      }
+      .logout p{
+        display: none;
+      }
+      .A-active p{
+        display: none;
+      }
+      .A-active{
+        width: 50px;
+        height: 40px;
+        justify-content: center;
+        padding-left: 0px;
+      }
+      .willow{
+        display: none;
+      }
+      .Ad-icons,
+      .A-icons{
+        width: 30px;
+        height: 30px;
+      }
+ }
